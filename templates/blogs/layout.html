@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人博客</title>
+    <link href="https://cdn.bootcss.com/materialize/1.0.0-rc.1/css/materialize.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <h1 class="center-align">常峻个人博客</h1>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        <br>
+        <a style="display: block" class="center-align" href="/admin">Admin</a>
+    </div>
+</body>
+</html>
